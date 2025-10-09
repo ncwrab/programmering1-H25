@@ -50,7 +50,7 @@ while kjør:  # Dette er det samme som while kjør == True:
     # Utregninger
     jordens_tyngdekraft = tyngdekraft[2]
     din_masse = din_vekt / jordens_tyngdekraft
-    din_vekt_på_planet = din_masse * tyngdekraft[planetnummer]
+    din_vekt_på_planet = din_masse * tyngdekraft[valgt_planetnummer]
 
     # Utskrift av brukers vekt på valgt planet
     print(f"Din vekt på planeten {valgt_planet} er {round(din_vekt_på_planet, 2)} kg.")
